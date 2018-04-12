@@ -4,10 +4,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { TimerPipe } from './shared/timer-pipe';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TimerPipe
   ],
   imports: [
     BrowserModule
